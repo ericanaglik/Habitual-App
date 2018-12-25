@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Habitual
 //
-//  Created by Diana Anderson on 12/25/18.
+//  Created by Erica Naglik on 12/25/18.
 //  Copyright © 2018 Erica Naglik. All rights reserved.
 //
 
