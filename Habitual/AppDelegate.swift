@@ -19,13 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         
         // Create an instance of the main view controller
-        let mainController = UIViewController()
-        mainController.view.backgroundColor = .green
+        let navigationController = UINavigationController()
+        let mainViewController = MainViewController.instantiate()
+        navigationController.setViewControllers([mainViewController], animated: false)
         
         // Tell the window to load the main controller as it's root view
-        window!.rootViewController = mainController
+        window!.rootViewController = navigationController
         window!.makeKeyAndVisible()
-        // Override point for customization after application launch.
+        
         return true
     }
 

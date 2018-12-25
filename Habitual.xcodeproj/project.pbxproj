@@ -40,7 +40,6 @@
 		66BAB06621D2A50700E9D360 = {
 			isa = PBXGroup;
 			children = (
-				66BAB08921D2B93F00E9D360 /* UIViewControllerExtensions.swift */,
 				66BAB07121D2A50700E9D360 /* Habitual */,
 				66BAB07021D2A50700E9D360 /* Products */,
 			);
@@ -57,6 +56,7 @@
 		66BAB07121D2A50700E9D360 /* Habitual */ = {
 			isa = PBXGroup;
 			children = (
+				66BAB08921D2B93F00E9D360 /* UIViewControllerExtensions.swift */,
 				66BAB07221D2A50800E9D360 /* AppDelegate.swift */,
 				66BAB08821D2B78200E9D360 /* Views */,
 				66BAB07921D2A51C00E9D360 /* Assets.xcassets */,
